@@ -12,37 +12,37 @@ The analysis is based on a dataset of 10,000 customers, with each record consist
 
 ### Data Preparation
 Importing Libraries:
-    import pandas as pd
-    import numpy as np
-    from sklearn.ensemble import RandomForestClassifier
-    from sklearn.linear_model import LogisticRegression
-    from sklearn.tree import DecisionTreeClassifier
-    from sklearn.naive_bayes import GaussianNB
-    from sklearn.model_selection import train_test_split
-    from sklearn.dummy import DummyClassifier
-    from sklearn.metrics import mean_squared_error
-    from sklearn.neighbors import KNeighborsClassifier
-    from sklearn import svm
-    from sklearn.utils import resample
-    from sklearn.utils import shuffle
-    import seaborn as sns
-    from math import sqrt
-    from fast_ml.model_development import train_valid_test_split
-    from sklearn.metrics import precision_score
-    from sklearn.metrics import recall_score
-    from sklearn.metrics import accuracy_score
-    from sklearn.metrics import f1_score
-    from sklearn.metrics import roc_auc_score
-    from sklearn import metrics
-    from sklearn.metrics import roc_curve
-    from sklearn.preprocessing import StandardScaler as ss
-    from matplotlib.gridspec import GridSpec
-    import matplotlib.pyplot as plt
-    %matplotlib inline
-    import sys
-    import warnings
-    if not sys.warnoptions:
-    warnings.simplefilter("ignore")
+. import pandas as pd
+. import numpy as np
+. from sklearn.ensemble import RandomForestClassifier
+. from sklearn.linear_model import LogisticRegression
+. from sklearn.tree import DecisionTreeClassifier
+. from sklearn.naive_bayes import GaussianNB
+. from sklearn.model_selection import train_test_split
+. from sklearn.dummy import DummyClassifier
+. from sklearn.metrics import mean_squared_error
+. from sklearn.neighbors import KNeighborsClassifier
+. from sklearn import svm
+. from sklearn.utils import resample
+. from sklearn.utils import shuffle
+. import seaborn as sns
+. from math import sqrt
+. from fast_ml.model_development import train_valid_test_split
+. from sklearn.metrics import precision_score
+. from sklearn.metrics import recall_score
+. from sklearn.metrics import accuracy_score
+. from sklearn.metrics import f1_score
+. from sklearn.metrics import roc_auc_score
+. from sklearn import metrics
+. from sklearn.metrics import roc_curve
+. from sklearn.preprocessing import StandardScaler as ss
+. from matplotlib.gridspec import GridSpec
+. import matplotlib.pyplot as plt
+. %matplotlib inline
+. import sys
+. import warnings
+. if not sys.warnoptions:
+. warnings.simplefilter("ignore")
 
 ## Variable Description 
 
